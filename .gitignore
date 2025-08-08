@@ -1,0 +1,34 @@
+.gitignore files for TypeScript projects usually include common files and folders that shouldn't be committed to a repository, such as compiled JavaScript files, node modules, and editor-specific files. Here's a comprehensive .gitignore for a typical TypeScript project:
+
+# dependencies
+/node_modules
+
+# editor-specific files
+.idea
+.vscode
+.DS_Store
+
+# build output
+/dist
+/build
+/out
+
+# compiled TypeScript and sourcemaps
+*.js
+*.js.map
+*.d.ts
+*.tsbuildinfo
+
+# logs and miscellaneous
+npm-debug.log*
+yarn-error.log*
+.env
+.env.*.local
+.cache
+
+# tests
+/coverage
+
+# lock files
+package-lock.json
+yarn.lock
